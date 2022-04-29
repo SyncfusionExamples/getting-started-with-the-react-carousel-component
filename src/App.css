@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  margin: 2%;
+}
+
+@import url("https://cdn.syncfusion.com/ej2/20.1.48/bootstrap5.css");
+
+.App .carousel-sample{
+  margin: 0 auto 2em;
+  max-width: 500px;
+  height: 300px;
+}
+
+.default-carousel .e-carousel-items .e-carousel-item .img-container {
+  height: 300px;
+  margin: 0;
+}
+
+.default-carousel .e-carousel-items .e-carousel-item .img-caption {
+  bottom: 4em;
+  color: #fff;
+  font-size: 12pt;
+  height: 2em;
+  position: relative;
+  padding: 0.3em 1em;
+  text-align: center;
+  width: 100%;
+}
+
+.carousel-sample2 {
+  border: 1px solid #e5e5e5;
+  border-radius: 0.5em;
+  margin: 0 auto 2em;
+  max-width: 420px;
+  height: 420px;
+}
+
+.carousel-sample2 .db-carousel {
+  background-color: inherit;
+  border-radius: 0.5em;
+}
+
+.carousel-sample2 .db-carousel .e-carousel-items .e-carousel-item .card-title,
+.carousel-sample2 .db-carousel .e-carousel-items .e-carousel-item .card-text {
+  opacity: 0;
+  text-align: justify;
+  transform: translateY(20px);
+}
+
+.carousel-sample2 .db-carousel .e-carousel-items .e-carousel-item.e-active .card-title,
+.carousel-sample2 .db-carousel .e-carousel-items .e-carousel-item.e-active .card-text {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.carousel-sample2 .db-carousel .e-carousel-items .e-carousel-item .card-body{
+  padding: 1rem;
+}
+
+.carousel-sample2 .db-carousel .e-carousel-items .e-carousel-item .card-title {
+  font-size: 20px;
+  transition: transform 0.4s ease 0.2s;
+  margin: 0;
+}
+
+.carousel-sample2 .db-carousel .e-carousel-items .e-carousel-item .card-text {
+  font-size: 14px;
+  transition: transform 0.4s ease 0.2s;
+}
+
+.carousel-sample2 .db-carousel .e-carousel-indicators {
+  height: 3em;
+}
